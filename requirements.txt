@@ -1,0 +1,9 @@
+# 本插件**不依赖任何第三方 Python 包**，只用标准库。
+#
+# 但需要两个**外部组件**（不是 pip 包，见 README）：
+#   1. llama.cpp 的 `llama-server` 可执行文件
+#   2. 一个 Qwen3-4B-Instruct-2507 的 GGUF 模型
+#
+# `folder_paths` 由 ComfyUI 自身提供，不需要单独安装。
+#
+# 保留这个文件是为了让 `pip install -r requirements.txt` 不报错。
