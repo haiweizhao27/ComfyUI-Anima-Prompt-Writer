@@ -1,0 +1,24 @@
+# 本机专用，不入库
+llama_dir.txt
+chars.json
+bin/
+
+# 备份
+*.bak.json
+*.full.bak.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 输出
+*.log
